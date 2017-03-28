@@ -1,0 +1,5 @@
+**.o
+build**
+*.exe
+**team_distribute.pro.user.*
+**build-team_distribute-Desktop_Qt_5_5_0_MinGW_32bit-Release**

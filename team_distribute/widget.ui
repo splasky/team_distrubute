@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>704</width>
+    <height>350</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QTextEdit" name="Out_Edit">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>20</y>
+     <width>411</width>
+     <height>311</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>215</width>
+     <height>202</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="Max_Label">
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="Max_lineEdit"/>
+    </item>
+    <item row="3" column="0" colspan="2">
+     <widget class="QLabel" name="People_Label">
+      <property name="text">
+       <string>How many people in 1 team</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="People_lineEdit"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="Expect_Label">
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="Expect_lineEdit"/>
+    </item>
+    <item row="8" column="1">
+     <widget class="QPushButton" name="Rand_pushButton">
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
